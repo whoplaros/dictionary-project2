@@ -1,15 +1,22 @@
 import React from "react";
 import logo from "./assets/ayww-logo.png";
+import Dictionary from "./Dictionary.jsx";
 import "./App.css";
 
-function App() {
+export default function App() {
 	return (
 		<div className="App">
-			<header className="App-header">
-				<img src={logo} className="App-logo img-fluid" alt="logo" />
-			</header>
+			<div className="container">
+				<header className="App-header">
+					<img src={logo} className="App-logo img-fluid" alt="logo" />
+				</header>
+				<main>
+					<Dictionary />
+				</main>
+				<footer className="App-footer text-center">
+					<small>Coded by Wesley Hoplaros</small>
+				</footer>
+			</div>
 		</div>
 	);
 }
-
-export default App;
