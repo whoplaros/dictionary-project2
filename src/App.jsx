@@ -14,7 +14,24 @@ export default function App() {
 					<Dictionary defaultKeyword="punctual" />
 				</main>
 				<footer className="App-footer text-center">
-					<small>Coded by Wesley Hoplaros</small>
+					<small>
+						This app was coded by{" "}
+						<a
+							href="https://wesleyhoplarosportfolio.netlify.app"
+							target="_blank"
+						>
+							Wesley Hoplaros
+						</a>
+						. It is open-sourced on{" "}
+						<a href="https://github.com" target="_blank">
+							Github
+						</a>{" "}
+						and hosted by{" "}
+						<a href="https://netlify.app" target="_blank">
+							Netlify
+						</a>
+						.
+					</small>
 				</footer>
 			</div>
 		</div>
