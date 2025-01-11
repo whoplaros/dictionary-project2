@@ -1,3 +1,7 @@
+:root {
+	--primary-text: font;
+}
+
 .App-header {
 	margin: 20px 0;
 	background-color: #31cceb;
