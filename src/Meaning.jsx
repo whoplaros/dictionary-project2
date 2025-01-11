@@ -8,17 +8,15 @@ export default function Meaning(props) {
 	return (
 		<div className="Meaning">
 			<div className="left-side-wrapper">
-				<h3 className="partOfSpeech">{props.meaning.partOfSpeech}</h3>
+				<h3>{props.meaning.partOfSpeech}</h3>
 				<p className="definition">{props.meaning.definition}</p>
 				<p className="example-wrapper">
-					<strong>Example: </strong>
+					<h3 className="example-header">Example</h3>
 					<em>{props.meaning.example}</em>
 				</p>
 			</div>
 			<div className="right-side-wrapper">
-				<strong>Synonyms: </strong>
 				<Synonyms synonyms={props.meaning.synonyms} />
-				<strong>Antonyms:</strong>
 				<Antonyms antonyms={props.meaning.antonyms} />
 			</div>
 		</div>
