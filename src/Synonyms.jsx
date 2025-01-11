@@ -5,12 +5,16 @@ export default function Synonyms(props) {
 	if (props.synonyms) {
 		return (
 			<div>
-				<h3>Synonyms </h3>
-				<ul className="Synonyms">
+				<h3>Synonyms</h3>
+				<div className="Synonyms-wrapper">
 					{props.synonyms.map(function (synonym, index) {
-						return <li key={index}>{synonym}</li>;
+						return (
+							<div className="Synonyms" key={index}>
+								{synonym}
+							</div>
+						);
 					})}
-				</ul>
+				</div>
 			</div>
 		);
 	} else {

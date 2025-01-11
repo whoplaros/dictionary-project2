@@ -6,17 +6,17 @@ import "./Meaning.css";
 export default function Meaning(props) {
 	console.log(props.meaning);
 	return (
-		<div className="Meaning">
-			<div className="left-side-wrapper">
+		<div className="Meaning row">
+			<div className="left-side-wrapper col-md-6 col-sm-12">
 				<h3>{props.meaning.partOfSpeech}</h3>
 				<p className="definition">{props.meaning.definition}</p>
 				<p className="example-wrapper">
-					<h3 className="example-header">Example</h3>
-					<em>{props.meaning.example}</em>
+					<em>~ {props.meaning.example}</em>
 				</p>
 			</div>
-			<div className="right-side-wrapper">
+			<div className="right-side-wrapper col-md-6 col-sm-12">
 				<Synonyms synonyms={props.meaning.synonyms} />
+				<br />
 				<Antonyms antonyms={props.meaning.antonyms} />
 			</div>
 		</div>

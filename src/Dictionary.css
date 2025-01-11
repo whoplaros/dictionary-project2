@@ -10,8 +10,11 @@
 	color: #fff;
 	letter-spacing: 2px;
 }
-
 .Dictionary .formSection {
 	background-color: #31cceb;
-	padding-bottom: 60px;
+	padding: 0 3rem 60px;
+}
+.Dictionary .resultsSection {
+	background-color: #fff;
+	padding: 10px 5%;
 }

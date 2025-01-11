@@ -5,11 +5,15 @@ export default function Antonyms(props) {
 		return (
 			<div>
 				<h3>Antonyms</h3>
-				<ul className="Antonyms">
+				<div className="Antonyms-wrapper">
 					{props.antonyms.map(function (antonym, index) {
-						return <li key={index}>{antonym}</li>;
+						return (
+							<div className="Antonyms" key={index}>
+								{antonym}
+							</div>
+						);
 					})}
-				</ul>
+				</div>
 			</div>
 		);
 	} else {

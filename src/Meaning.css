@@ -3,10 +3,10 @@
 }
 
 .definition {
-	margin: 20px 0;
 	font-family: "Libre Caslon Text", serif;
 	font-size: 1em;
 	color: #383838;
+	margin-bottom: 0;
 }
 h3 {
 	font-family: "Figtree", serif;
@@ -15,18 +15,25 @@ h3 {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	color: #383838;
-
 	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
-
-.right-side-wrapper ul {
-	list-style-type: none;
+.example-wrapper {
+	color: #a09d9d;
+}
+.Synonyms-wrapper,
+.Antonyms-wrapper {
+	column-width: 200px;
+	column-gap: 10px;
 }
 .Synonyms,
 .Antonyms {
 	color: #0da9c8;
 	font-family: "Libre Caslon Text", serif;
 	font-style: italic;
-	font-size: 1.8em;
+	font-size: 1.5em;
 	letter-spacing: 2px;
+	display: inline-block;
+	width: 100%;
+	box-sizing: border-box;
 }
