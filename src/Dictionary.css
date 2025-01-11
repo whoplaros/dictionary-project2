@@ -1,9 +1,20 @@
 .Dictionary {
-	max-width: 1200px;
 }
 
 .Dictionary input {
 	width: 100%;
+	display: block;
+	margin: 0 auto;
 	border: none;
+	background-color: rgba(0, 0, 0, 0);
 	border-bottom: 1px solid #fff;
+	font-family: "Libre Caslon Text", serif;
+	font-size: 2em;
+	color: #fff;
+	letter-spacing: 2px;
+}
+
+.Dictionary .formSection {
+	background-color: #31cceb;
+	padding-bottom: 60px;
 }

@@ -1,13 +1,10 @@
-:root {
-	--primary-text: font;
-}
-
 .App-header {
-	margin: 20px 0;
+	margin: 0;
+	padding: 20px 0 80px;
 	background-color: #31cceb;
 }
 .App-logo {
-	max-width: 200px;
+	max-width: 180px;
 	display: block;
 	margin: 0 auto;
 }

@@ -1,0 +1,32 @@
+.Results {
+	padding-top: 30px;
+	background-color: #fff;
+
+	display: block;
+	margin: 0 auto;
+}
+.definition-header {
+	font-family: "Figtree", serif;
+	font-size: 1em;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #a09d9d;
+	letter-spacing: 6;
+}
+.word-header {
+	font-family: "Libre Caslon Text", serif;
+	font-size: 3em;
+	color: #0da9c8;
+	letter-spacing: 2px;
+	line-height: 2;
+}
+.phonetic-header {
+	font-family: "Libre Caslon Text", serif;
+	font-style: italic;
+	font-size: 1em;
+	letter-spacing: 4px;
+	color: #a09d9d;
+	line-height: 2;
+	margin-bottom: 30px;
+}
