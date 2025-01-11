@@ -21,10 +21,9 @@ h3 {
 .example-wrapper {
 	color: #a09d9d;
 }
-.Synonyms-wrapper,
-.Antonyms-wrapper {
-	column-width: 200px;
-	column-gap: 10px;
+.right-side-wrapper {
+	margin-left: 0;
+	padding-left: 0;
 }
 .Synonyms,
 .Antonyms {
@@ -33,7 +32,5 @@ h3 {
 	font-style: italic;
 	font-size: 1.5em;
 	letter-spacing: 2px;
-	display: inline-block;
-	width: 100%;
-	box-sizing: border-box;
+	text-wrap: no-wrap;
 }

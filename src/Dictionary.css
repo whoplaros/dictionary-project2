@@ -10,6 +10,11 @@
 	color: #fff;
 	letter-spacing: 2px;
 }
+.Dictionary input::placeholder {
+	color: #fff;
+	opacity: 1;
+}
+
 .Dictionary .formSection {
 	background-color: #31cceb;
 	padding: 0 3rem 60px;

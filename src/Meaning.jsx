@@ -4,7 +4,6 @@ import Antonyms from "./Antonyms.jsx";
 import "./Meaning.css";
 
 export default function Meaning(props) {
-	console.log(props.meaning);
 	return (
 		<div className="Meaning row">
 			<div className="left-side-wrapper col-md-6 col-sm-12">

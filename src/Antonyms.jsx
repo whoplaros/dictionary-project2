@@ -5,10 +5,10 @@ export default function Antonyms(props) {
 		return (
 			<div>
 				<h3>Antonyms</h3>
-				<div className="Antonyms-wrapper">
+				<div className="Antonyms-wrapper row">
 					{props.antonyms.map(function (antonym, index) {
 						return (
-							<div className="Antonyms" key={index}>
+							<div className="Antonyms col-6" key={index}>
 								{antonym}
 							</div>
 						);

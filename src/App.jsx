@@ -23,11 +23,14 @@ export default function App() {
 							Wesley Hoplaros
 						</a>
 						. It is open-sourced on{" "}
-						<a href="https://github.com" target="_blank">
+						<a
+							href="https://github.com/whoplaros/dictionary-project2"
+							target="_blank"
+						>
 							Github
 						</a>{" "}
 						and hosted by{" "}
-						<a href="https://netlify.app" target="_blank">
+						<a href="https://asyouwish-dictionary.netlify.app" target="_blank">
 							Netlify
 						</a>
 						.
