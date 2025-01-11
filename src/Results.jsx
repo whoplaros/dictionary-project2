@@ -1,4 +1,5 @@
 import React from "react";
+import Meaning from "./Meaning.jsx";
 
 export default function Result(props) {
 	if (props.results) {
@@ -6,7 +7,11 @@ export default function Result(props) {
 			<div className="Results">
 				<h2>{props.results.word}</h2>
 				{props.results.meanings.map(function (meaning, index) {
-					return meaning.definitions.definition;
+					return (
+						<div key={index}>
+							<Meaning meaning={meaning} />
+						</div>
+					);
 				})}
 			</div>
 		);
